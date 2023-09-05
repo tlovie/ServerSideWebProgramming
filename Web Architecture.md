@@ -13,7 +13,7 @@ An overview of the web
 - After requests are processed an HTTP response is bundled
 - Today, responses are commonly packaged as HTML, JSON, or XML
 
-![[client-server2.png]]
+![client-server2.png](client-server2.png)
 
 - Semester 2 dealt with the left side of the diagram, this semester we'll be dealing with the right!
 - Notice that JS is being executed both by the client and server responses
