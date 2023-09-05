@@ -1,6 +1,6 @@
 An overview of the web
 # HTTP Client-Server Model
-![[client-server.png]]
+![client-server.png](client-server.png)
 ## The Client
 - A 'client' is nothing more than a piece of software. i.e. some people refer to their browsers as a 'web client'
 - Today, browsers use the HTTP (or HTTPs) protocol to communicate without outside resources
