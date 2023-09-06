@@ -1,12 +1,12 @@
-Instructor: Alex Cook
-Contact: alexander.cook1@mohawkcollege.ca
+Instructor: Tom Lovie
+Contact: tom.lovie@mohawkcollege.ca
 
 # Class Schedule
 
 | Date | Location |
 |-|-|
-| Wednesdays 10AM-12PM | H010 |
-| Tuesdays 9AM-11AM | I110 |
+| Tuesdays 11AM-1PM | I110 |
+| Fridays  11AM-1PM | E031 |
 
 
 # Marking  Breakdown
@@ -17,6 +17,12 @@ Contact: alexander.cook1@mohawkcollege.ca
 
 # Course Topics
 (See Syllabus on MyCanvas for complete breakdown)
+
+# Academic Integrity
+
+# This course
+- builds on client side course
+- why do we want server side programming anyway?
 
 ## [[Web Architecture]] 
 - Client-Server Models
