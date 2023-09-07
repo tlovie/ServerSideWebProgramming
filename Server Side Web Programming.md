@@ -1,4 +1,5 @@
 Instructor: Tom Lovie
+
 Contact: tom.lovie@mohawkcollege.ca
 
 # Class Schedule
@@ -14,17 +15,16 @@ Contact: tom.lovie@mohawkcollege.ca
 - 4 Assignments -> 40% (10% each)
 - 1 Midterm -> 30%
 - 1 Final Exam -> 30%
+## Academic Integrity
 
 # Course Topics
 (See Syllabus on MyCanvas for complete breakdown)
-
-# Academic Integrity
 
 # This course
 - builds on client side course
 - why do we want server side programming anyway?
 
-## [[Web Architecture]] 
+## Web Architecture
 - Client-Server Models
 - Deployment Environments
 ## Server Side Programming Introduction
