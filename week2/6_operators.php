@@ -21,9 +21,9 @@
     $fruits = $apples + $oranges;
 
     $fruits = $fruits + $grapes;
+    //  $fruits += $grapes;
 
     echo $fruits . "<br><br>";
-    //  $fruits += $grapes;
 
     $spoiled_grapes = 6;
     //  $fruits -= $spoiled_grapes
