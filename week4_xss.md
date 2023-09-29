@@ -32,3 +32,6 @@ array -> collection of data stored as one variable
 ## demonstration 
 - what is xss?
 - how to mitigate xss?
+- further info on xss
+- https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/
+- https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
