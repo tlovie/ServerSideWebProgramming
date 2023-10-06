@@ -1,6 +1,6 @@
 # Week 5 - Second lecture
 
-## Break week - when is break week?
+## Break week - October 9
 
 ## Midterm Exam
 - 2nd class week of October 23rd
