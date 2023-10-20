@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    @author   Thomas Lovie <tom.lovie@mohawkcollege.ca
+    @purpose  exciting new application for sharing all your cat photos
+    @revision 2023.35.0
+-->
+<head>    
+    <title>Catbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tom Lovie">  
+    <meta name="description" content="Catbook landing page">
+
+    <script defer>
+        /**
+         * @param script         name of the php file to call
+         * @param container_id   string id of the container to place the result
+         * @oaram param_id       string id of the GET parameter to pass
+         * @param param          value of the GET parameter to pass
+         * 
+         * Note: Only works for single GET parameter key/value pair
+         * */
+        function button( script, container_id, param_id, param ) {
+            fetch( script+'?'+param_id+'='+param )
+            .then( response => {
+                if ( !response.ok ) {
+                    throw new Error(response.status+" "+response.statusText)
+                } else {
+                    return response.text();
+                } 
+            } )
+            .then( data => document.getElementById( container_id ).innerHTML = data )
+            .catch( error => document.getElementById( container_id ).innerHTML = '<strong>'+error+'</strong>' );
+        }
+
+      /*  button('me.php', 'student_info', '', '');  */
+    </script>
+
+</head>
+<body>
+    <header class='text-center'>
+        <h1>Catbook <br> the exciting new social media page for cats</h1>
+  <!--      <h2 id='student_info'>By: </h2>   -->
+    </header>
+
+    <main>
+        <section id='image'>
+            <img src="Gray-Cat-MorgueFile-Nov16th-2013.jpg" height="120" width="200">
+        </section>
+
+        <section id='post_comment_section'>
+        <input id='post_comment' type='text' value='Post a comment'>
+        <button onclick="button( 'comment_post.php', 'comment_results', 'comment', document.getElementById('post_comment').value )">Post Comment</button>
+        <ul id='comment_results'></ul>
+        </section>
+
+        <section id='read_comment_section'>
+        <input id='read_comments' type='number' min='3' max='10' value='3'>
+        <button onclick="button( 'comment_read.php', 'comment_read', 'rows', document.getElementById('read_comments').value )">Read Comments</button>
+        <ul id='comment_read'></ul>
+        </section>
+
+
+    </main>
+
+    <footer>
+        Copyright (c) - Catbook
+    </footer>
+</body>
+</html>
