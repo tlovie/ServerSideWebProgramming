@@ -4,7 +4,7 @@
   - allows for you to represent the STATE of something as well as its BEHAVIOUR
   - we represent objects in a CLASS with PROPERTIES and METHODS
     - STATE -> PROPERTIES
-    - BEHAVOIUR -> METHODS
+    - BEHAVIOUR -> METHODS
   - in this course we are not going to be really writing objects too often
   - more as a review to allow us to use PDO (PHP Data Objects) for database access
     - make new projects using PDO - best practice since you are not attached to a single database engine
